@@ -1,0 +1,38 @@
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    text-align: center;
+    padding: 25px 18px;
+    background-color: #fff;
+    margin: 15px;
+}
+.image{
+    width: 95px;
+    height: 200px;
+    margin: 0 auto;
+}
+.image img{
+   width: 100%;
+    margin-bottom: 20px;
+}
+.title{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 150%;
+}
+.subtitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+.price{
+    font-size: 24px;
+    font-weight: 600;
+    color: #9C9C42;
+    margin-bottom: 15px;
+    line-height: 150%;
+}

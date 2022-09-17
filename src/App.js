@@ -8,6 +8,7 @@ import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Shop from "./pages/Shop";
+import Footer from "./components/Footer";
 
 export const AppContext = React.createContext({});
 
@@ -58,6 +59,8 @@ function App() {
           }
           />
         </Routes>
+
+        <Footer />
       </div>
     </AppContext.Provider>
   );

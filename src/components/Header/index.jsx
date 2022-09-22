@@ -1,30 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import styles from "./Header.module.css"
 
 function Header() {
     return (
         <div className="container">
-            <header className="header">
+            <header className={styles.header}>
                 <Link to="/">
-                    <div className="header__logo">
+                    <div className={styles.header__logo}>
                         <img width={150} height={150} src="images/logo.png" alt="logo" />
                     </div>
                 </Link>
-
-                <nav className="header__nav nav">
-                    <ul className="nav__list">
+                <nav className={styles.header__nav}>
+                    <ul className={styles.nav__list}>
                         <li><Link to="/shop">Our Shop</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/recipes">Recipes</Link></li>
                         <li><Link to="/about">About Us</Link></li>
                     </ul>
-                    <ul className="nav__right">
-                        <li className="nav__search">
+                    <ul className={styles.nav__right}>
+                        <li className={styles.nav__search}>
                             <input type="text" name="search" placeholder="Search..." />
                             <img width={29} height={29} src="images/header-search.svg" alt="header-search" />
                         </li>
-                        <li className="nav__line"></li>
-                        <li className="nav__cart">
+                        <li className={styles.nav__line}></li>
+                        <li className={styles.nav__cart}>
                             <img width={29} height={29} src="images/header-cart.svg" alt="header-cart" />
                         </li>
                     </ul>

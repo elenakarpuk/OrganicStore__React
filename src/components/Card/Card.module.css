@@ -36,3 +36,30 @@
     margin-bottom: 15px;
     line-height: 150%;
 }
+
+/*--------------------------------------*/
+.button{
+    padding: 10px 25px;
+    border: 1px solid #9C9C42;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button:hover{
+    box-shadow: 0 0 0 2px #9C9C42;
+}
+.button:hover.button svg{
+    transform: translateY(-3px)
+}
+.button svg{
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.button span{
+    color: #9C9C42;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 18px;
+    vertical-align: 6px;
+}

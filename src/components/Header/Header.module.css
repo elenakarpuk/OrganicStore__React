@@ -12,7 +12,10 @@
     cursor: pointer;
     z-index: 99;
     background-color: white;
-  
+  }
+  .header__logo img{
+    width: 150px;
+    height: 150px;
   }
   .header__nav{
     flex: 1 1 auto;
@@ -27,6 +30,11 @@
   .nav__list li{
     padding: 0 20px;
     cursor: pointer;
+    transition: 0.2s;
+  }
+  .nav__list li:hover{
+    box-shadow: 0 0 0 1px #cfcece;
+    border-radius: 10px;
   }
   .nav__right{
     display: flex;
@@ -40,7 +48,11 @@
     cursor: pointer;
   }
   .nav__search input{
-    display: none;
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+    margin-right: 10px;
+    padding: 5px 8px;
+    width: 150px;
   }
   .nav__line{
     width: 1px;
@@ -49,3 +61,62 @@
   .nav__cart{
     cursor: pointer;
   }
+  @media (max-width: 1024px){
+    .nav__list{
+      display: none;
+    }
+    .nav__right{
+      padding-left: 260px;
+    }
+  }
+  @media (max-width: 768px){
+    .header__logo img{
+      width: 110px;
+      height: 110px;
+    }
+    .header__logo {
+      padding: 15px;
+    }
+    .nav__right{
+      padding-left: 200px;
+    }
+  }
+  @media (max-width: 635px){
+    .nav__search{
+      display: none;
+    }
+    .nav__line{
+      display: none;
+    }
+  }
+  @media (max-width: 320px){
+    .nav__right{
+      padding-left: 180px;
+    }
+  }
+  /*--------------------------------------------*/
+
+  .nav__burger{
+    display: none;
+    border: 0;
+    background: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 40px 10px;
+  }
+  .ico__burger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #262626;
+    margin: 0 auto;
+}
+.ico__burger:not(:last-child) {
+    margin-bottom: 6px;
+}
+@media (max-width: 1024px){
+  .nav__burger{
+    display: block;
+  }
+}

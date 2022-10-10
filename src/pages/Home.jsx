@@ -17,7 +17,8 @@ function Home() {
                     <div className="about__content content">
                         <h1 className="about__title title">About <span>US</span></h1>
                         <div className="about__text">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur, quos itaque excepturi, nihil velit, ab explicabo veniam dolor blanditiis incidunt. Cupiditate officia veniam accusamus eum voluptatem amet et cumque!
+
                         </div>
                         <div className="about__button button-gold"><Link to="/about">Find out more</Link></div>
                     </div>

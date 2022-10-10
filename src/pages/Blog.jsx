@@ -8,7 +8,7 @@ function Blog() {
                         <div className="blog__item item">
                             <div className="item__img">
                                 <img className="img1" src="/images/blog/blog1.png" alt="blog-img" />
-                                <img className="img2" src="/images/more.png" alt="more" />
+                                <span className="img2">&#8594;</span>
                             </div>
                             <div className="item__views view">
                                 <span className="view__date">8 SEP 2020</span>
@@ -24,7 +24,7 @@ function Blog() {
                         <div className="blog__item item">
                             <div className="item__img">
                                 <img className="img1" src="/images/blog/blog2.png" alt="blog-img" />
-                                <img className="img2" src="/images/more.png" alt="more" />
+                                <span className="img2">&#8594;</span>
                             </div>
                             <div className="item__views view">
                                 <span className="view__date">6 SEP 2020</span>
@@ -40,7 +40,7 @@ function Blog() {
                         <div className="blog__item item">
                             <div className="item__img">
                                 <img className="img1" src="/images/blog/blog3.png" alt="blog-img" />
-                                <img className="img2" src="/images/more.png" alt="more" />
+                                <span className="img2">&#8594;</span>
                             </div>
                             <div className="item__views view">
                                 <span className="view__date">4 SEP 2020</span>
